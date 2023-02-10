@@ -1,0 +1,90 @@
+#paramContainer{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#popupafficher{
+    visibility: hidden;
+    position: absolute;    
+}
+
+#popupafficher.show {
+    visibility: visible;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: white;
+    z-index: 11;
+    border: solid 1px black;
+    border-radius: 6px;
+    padding: 4px;
+    min-width: 200px;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    max-width: 800px;
+    max-height: 600px;
+}
+.popupafficher_content{
+    margin: 2px 10px;
+}
+
+.app-network-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#mynetwork{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    position: absolute;
+} 
+.vis-edge {
+    z-index: 0;
+}
+  
+.vis-node {
+    z-index: 0;
+}
+
+/* Style pour le bouton "Paramèbactre" */
+#parameterBtn {
+    position: absolute; /* Positionne le bouton en position absolue */
+    top: 20px; /* Place le bouton en haut de la page */
+    right: 30px; /* Place le bouton à droite de la page */
+    border: none;
+    border-radius: 5px;
+    background-color: #555; /* Fond gris foncé pour le bouton */
+    color: white; /* Texte blanc pour le bouton */
+    padding: 8px; /* Marge interne pour le bouton */
+    font-size: 8px; /* Taille de police pour le bouton */
+    z-index: 1;
+}
+#parameterBt::hover {
+    /* fond gris clair */
+    display: none;
+    position: relative;
+}
+
+.popup_header{
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+}
+.popup_text{
+    text-align: center;
+    padding: 6px 3px;
+}
+.vis-tooltip{
+    z-index: 1;
+}

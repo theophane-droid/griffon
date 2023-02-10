@@ -1,0 +1,25 @@
+.mat-icon{
+    font-size: 30px;
+    margin: -3px 0 0 0;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+#app-network-actions-container {
+    display: none;
+}
+#app-network-actions-container.show{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+}
+.app-network-actions-button{
+    position: absolute;
+    z-index: 0;
+    // transform: translate(-35px, -35px);
+    // transition: transform 0.2s ease-in-out;
+}

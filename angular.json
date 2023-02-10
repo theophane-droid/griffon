@@ -31,9 +31,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/vis/dist/vis.css",
+              "src/assets/style/jsonFormatter.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/vis/dist/vis.js",
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/scripts/jsonFormatter.min.js",
+              "src/assets/scripts/stix2js.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -99,9 +106,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/app/ring-menu/ring-menu.component.scss"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           }
         },
         "lint": {

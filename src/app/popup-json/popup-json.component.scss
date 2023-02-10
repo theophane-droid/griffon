@@ -1,0 +1,25 @@
+#app-json-popup-close-btn{
+    right: 3px;
+    top: 3px;
+    position: absolute;
+}
+#app-json-popup-close-btn:hover{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+h1{
+    margin: 6px 8px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: solid 1px #ccc;
+}
+.app-json-popup-content{
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.3em;
+}

@@ -1,0 +1,13 @@
+.app-popup-content{
+    margin: 10px 10px;
+}
+#app-popup-close-btn{
+    right: 3px;
+    top: 3px;
+    position: absolute;
+}
+#app-popup-close-btn:hover{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
